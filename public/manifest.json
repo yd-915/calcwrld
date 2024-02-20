@@ -66,8 +66,8 @@
       "url": "/",
       "description": "Open a new window with a blank form",
       "icons": [
-        { "src": "images/new-sheet-icon-192.png", "sizes": "192x192" },
-        { "src": "images/new-sheet-icon-96.png", "sizes": "96x96" }
+        { "src": "images/calc.png", "sizes": "192x192" },
+        { "src": "images/calc.png", "sizes": "96x96" }
       ]
     }
 
@@ -84,15 +84,15 @@
       },
       "icons": [
         {
-          "src": "images/sheet-icon-144.png",
+          "src": "images/calc.png",
           "sizes": "144x144"
         },
         {
-          "src": "images/sheet-icon-192.png",
+          "src": "images/calc.png",
           "sizes": "192x192"
         },
         {
-          "src": "images/sheet-icon-512.png",
+          "src": "images/calc.png",
           "sizes": "512x512"
         }
       ],

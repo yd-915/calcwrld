@@ -4,7 +4,7 @@
   "categories": ["engineering", "productivity", "education"],
   "icons": [
     {
-      "src": "images/icon.svg",
+      "src": "images/cw.png",
       "type": "image/svg+xml",
       "sizes": "512x512",
       "purpose": "any"
@@ -16,25 +16,25 @@
       "purpose": "maskable"
     },
     {
-      "src": "images/icon-192.png",
+      "src": "images/cw.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "any"
     },
     {
-      "src": "images/icon-512.png",
+      "src": "images/cw.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any"
     },
     {
-      "src": "images/icon-maskable-192.png",
+      "src": "images/cw.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "maskable"
     },
     {
-      "src": "images/icon-maskable-512.png",
+      "src": "images/cw.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose":"maskable"
@@ -46,20 +46,6 @@
   "background_color": "#000000",
   "theme_color": "#e61f00",
   "description": "CalcWrld is a free web app for creating shareable engineering calculations that checks/converts units, solves systems of equations, and plots.",
-  "screenshots": [
-    {
-      "src": "/images/desktop_screenshot.png",
-      "type": "image/png",
-      "sizes": "1572x1307",
-      "form_factor": "wide"
-    },
-    {
-      "src": "/images/mobile_screenshot.png",
-      "type": "image/png",
-      "sizes": "1440x3120",
-      "form_factor": "narrow"
-    }
-  ],
   "shortcuts" : [
     {
       "name": "New Form",

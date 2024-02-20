@@ -111,10 +111,10 @@ export default [
 				],
 				globPatterns: [
 					"**/*.{js,css,html,py,json}",
-					"**/*icon*.{svg,png,ico}",
+					"**/*icon*.{png,ico}",
 					"images/desktop_screenshot.png",
 					"pyodide/*",
-					"logo_dark.svg",
+					"calc.png",
 					"calc.png",
 					"build/**/*",
 					"fonts/IBMPlexSans-Light-Latin1.woff2",

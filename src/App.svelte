@@ -133,39 +133,39 @@
 
   const prebuiltTables = [
     {
-      url: "https://engineeringpaper.xyz/PaFvsBhgoJdZEEwyBLPnD6",
+      url: "https://calcwrld.space/PaFvsBhgoJdZEEwyBLPnD6",
       title: "Mechanical Properties of Metals" 
     },
     {
-      url: "https://engineeringpaper.xyz/QF5ThTJMUhn2sLBxM4Vyr9",
+      url: "https://calcwrld.space/QF5ThTJMUhn2sLBxM4Vyr9",
       title: "Coefficients of Friction" 
     },
     {
-      url: "https://engineeringpaper.xyz/FwahHU9W8ht28t9p4LNqFd",
+      url: "https://calcwrld.space/FwahHU9W8ht28t9p4LNqFd",
       title: "Coefficients of Thermal Expansion" 
     },
     {
-      url: "https://engineeringpaper.xyz/iBxxaDryEV8NkdrNdsZzvF",
+      url: "https://calcwrld.space/iBxxaDryEV8NkdrNdsZzvF",
       title: "Electrical Properties of Conductors" 
     },
     {
-      url: "https://engineeringpaper.xyz/EyXiBtFajaDHpxqRpvGQFX",
+      url: "https://calcwrld.space/EyXiBtFajaDHpxqRpvGQFX",
       title: "Dielectric Properties" 
     },
     {
-      url: "https://engineeringpaper.xyz/EnZhHT9wvsESXvRChZ7TLV",
+      url: "https://calcwrld.space/EnZhHT9wvsESXvRChZ7TLV",
       title: "Properties of Liquids" 
     },
     {
-      url: "https://engineeringpaper.xyz/bPX72mmrNjVsgZbos25Gkw",
+      url: "https://calcwrld.space/bPX72mmrNjVsgZbos25Gkw",
       title: "Beam Section Properties" 
     },
     {
-      url: "https://engineeringpaper.xyz/XvB4X3qGDZoupFyRCLbWmL",
+      url: "https://calcwrld.space/XvB4X3qGDZoupFyRCLbWmL",
       title: "W-Beam Properties" 
     },
     {
-      url: "https://engineeringpaper.xyz/ndyjJRwvqoJBfVLw7BGFfu",
+      url: "https://calcwrld.space/ndyjJRwvqoJBfVLw7BGFfu",
       title: "Musical Note Frequencies" 
     }
   ];

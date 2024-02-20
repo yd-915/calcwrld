@@ -115,7 +115,7 @@ export default [
 					"images/desktop_screenshot.png",
 					"pyodide/*",
 					"logo_dark.svg",
-					"print_logo.png",
+					"calc.png",
 					"build/**/*",
 					"fonts/IBMPlexSans-Light-Latin1.woff2",
 					"fonts/IBMPlexSans-Regular-Latin1.woff2",

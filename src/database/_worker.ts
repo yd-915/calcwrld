@@ -115,7 +115,7 @@ export default {
 
     if (url.hostname === "epxyz.com" && response.headers.get("Content-Type")?.includes("text/html")) {
       const canonicalUrl = new URL(url);
-      canonicalUrl.hostname = "engineeringpaper.xyz";
+      canonicalUrl.hostname = "calcwrld";
       response = new HTMLRewriter()
         .on('head', new AppendCanonical(canonicalUrl.toString()))
         .transform(response); 
@@ -250,7 +250,7 @@ async function postSheet({ origin, requestHash, requestBody, requestIp, kv, d1, 
     // check for existing key with same id to make sure there isn't an id collision
     const alreadyExists = await kv.get(id);
     if (alreadyExists) {
-      return new Response("Sheet id collision, save unsuccessful. Try to save your document again. If issue persists, contact support at support@engineeringpaper.xyz", { status: 404 });
+      return new Response("Sheet id collision, save unsuccessful. Try to save your document again. If issue persists, contact support at support@calcwrld.space", { status: 404 });
     }
 
     await kv.put(id, JSON.stringify(dbEntry));

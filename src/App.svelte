@@ -2518,7 +2518,7 @@ Please include a link to this sheet in the email to assist in debugging the prob
       />
 
       <div class="print-logo">
-        Created with: <img src="print_logo.png" alt="EngineeringPaper.xyz" height="26 px">
+        Created with: <img src="calc.png" alt="CalcWrld" height="26 px">
       </div>
 
       <div class="bottom-spacer" class:inIframe></div>

@@ -107,7 +107,7 @@
   const exampleSheets = [
     {
       path: `/${tutorialHash}`,
-      title: "Introduction to EngineeringPaper"
+      title: "Introduction to CalcWrld"
     },
     {
       path: "/fvYtcjsQVGJs8N4j6biWv3",

@@ -99,7 +99,7 @@
   // need for File System Access API calls
   const fileTypes = [
             {
-              description: "EngineerPaper.xyz Files",
+              description: "CalcWrld Files",
               accept: {"application/json": [".epxyz"]},
             }
           ];
@@ -1336,7 +1336,7 @@ Autosave checkpoints are stored locally on the browser that you are working on. 
 and may be deleted by your browser to free up space. EngineeringPaper.xyz will only retain the ${numCheckpoints} most recent checkpoints.
 Some browsers, Safari for example, automatically delete local browser storage
 for a website that has not been visited in the previous 7 days. To request that your browser retains the storage used by
-EngineeringPaper.xyz, use the "Enable Persistent Local Storage" option on the left menu. 
+CalcWrld, use the "Enable Persistent Local Storage" option on the left menu. 
  </p>`,
         modalOpen: true,
         heading: "Restoring Sheet"
@@ -1350,7 +1350,7 @@ EngineeringPaper.xyz, use the "Enable Persistent Local Storage" option on the le
       modalInfo = {
         state: "error",
         error: `<p>Error restoring autosave checkpoint ${window.location}.
-This is most likely due to a bug in EngineeringPaper.xyz.
+This is most likely due to a bug in CalcWrld.
 If problem persists after attempting to refresh the page, please report problem to
 <a href="mailto:support@engineeringpaper.xyz?subject=Error Regenerating Sheet&body=Sheet that failed to load: ${encodeURIComponent(window.location.href)}">support@engineeringpaper.xyz</a>.  
 Please include a link to this sheet in the email to assist in debugging the problem. </p>`,
@@ -1485,9 +1485,9 @@ Please include a link to this sheet in the email to assist in debugging the prob
       modalInfo = {
         state: "error",
         error: `<p>Error inserting sheet ${sheetUrl}.
-This is most likely due to a bug in EngineeringPaper.xyz.
+This is most likely due to a bug in CalcWrld.
 If problem persists after attempting to refresh the page, please report problem to
-<a href="mailto:support@engineeringpaper.xyz?subject=Error Regenerating Sheet&body=Sheet that failed to load: ${encodeURIComponent(sheetUrl)}">support@engineeringpaper.xyz</a>.  
+<a href="mailto:support@calcwrld?subject=Error Regenerating Sheet&body=Sheet that failed to load: ${encodeURIComponent(sheetUrl)}">support@calcwrld</a>.  
 Please include a link to this sheet in the email to assist in debugging the problem. <br>${error} </p>`,
         modalOpen: true,
         heading: "Retrieving Sheet"

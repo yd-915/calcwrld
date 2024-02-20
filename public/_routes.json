@@ -6,7 +6,7 @@
     "/pyodide/*",
     "/fonts/*",
     "/images/*",
-    "/print_logo.png",
+    "/calc.png",
     "/_routes.json",
     "/logo_dark.svg",
     "/global.css",

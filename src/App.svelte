@@ -1333,7 +1333,7 @@ and the browser, where they were originally generated.
 <br><br>
 There are several possible causes for this error.
 Autosave checkpoints are stored locally on the browser that you are working on. Autosave checkpoints are not permanent 
-and may be deleted by your browser to free up space. EngineeringPaper.xyz will only retain the ${numCheckpoints} most recent checkpoints.
+and may be deleted by your browser to free up space. CalcWrld will only retain the ${numCheckpoints} most recent checkpoints.
 Some browsers, Safari for example, automatically delete local browser storage
 for a website that has not been visited in the previous 7 days. To request that your browser retains the storage used by
 CalcWrld, use the "Enable Persistent Local Storage" option on the left menu. 
@@ -1449,7 +1449,7 @@ Please include a link to this sheet in the email to assist in debugging the prob
       } catch(error) {
         modalInfo = {
           state: "error",
-          error: `<p>Error inserting sheet "${sheetUrl ? sheetUrl : 'empty URL'}". The URL is not valid EngineeringPaper.xyz sheet.`,
+          error: `<p>Error inserting sheet "${sheetUrl ? sheetUrl : 'empty URL'}". The URL is not valid CalcWrld sheet.`,
           modalOpen: true,
           heading: "Retrieving Sheet"
         };
@@ -1744,7 +1744,7 @@ Please include a link to this sheet in the email to assist in debugging the prob
   }
 
   async function getDocument(docType: "docx" | "pdf" | "md" | "tex", getShareableLink = false) {
-    const markDown = "<!-- Created with EngineeringPaper.xyz -->\n" + await getMarkdown(getShareableLink);
+    const markDown = "<!-- Created with CalcWrld -->\n" + await getMarkdown(getShareableLink);
     const upload_blob = new Blob([markDown], {type: "text/markdown"});
 
     if (docType === "md") {

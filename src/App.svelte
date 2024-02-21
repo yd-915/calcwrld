@@ -1046,9 +1046,9 @@ Please include a link to this sheet in the email to assist in debugging the prob
       modalInfo = {
         state: "error",
         error: `<p>Error regenerating sheet ${window.location}.
-This is most likely due to a bug in EngineeringPaper.xyz.
+This is most likely due to a bug in CalcWrld.
 If problem persists after attempting to refresh the page, please report problem to
-<a href="mailto:support@engineeringpaper.xyz?subject=Error Regenerating Sheet&body=Sheet that failed to load: ${encodeURIComponent(window.location.href)}">support@engineeringpaper.xyz</a>.  
+<a href="mailto:support@calcwrld.space?subject=Error Regenerating Sheet&body=Sheet that failed to load: ${encodeURIComponent(window.location.href)}">support@calcwrld.space</a>.  
 Please include a link to this sheet in the email to assist in debugging the problem. </p>`,
         modalOpen: true,
         heading: "Retrieving Sheet"
@@ -1224,7 +1224,7 @@ Please include a link to this sheet in the email to assist in debugging the prob
     } else {
       modalInfo = {
         state: "error",
-        error: `Error Opening File. Make sure you have chosen a valid EngineeringPaper.xyz file.`,
+        error: `Error Opening File. Make sure you have chosen a valid CalcWrld file.`,
         modalOpen: true,
         heading: "Opening File"
       };
@@ -1248,10 +1248,10 @@ Please include a link to this sheet in the email to assist in debugging the prob
       modalInfo = {
         state: "error",
         error: `<p>${error} <br><br>
-Error parsing input file. Make sure your attempting to open an EngineeringPaper.xyz file.
+Error parsing input file. Make sure your attempting to open an CalcWrld file.
 <br><br>
-If this problem persists after verifying the file is an EngineeringPaper.xyz file,
-email support@engineeringpaper.xyz
+If this problem persists after verifying the file is an CalcWrld file,
+email support@calcwrld.space
 If possible, please attach the file that is not opening.
  </p>`,
         modalOpen: true,
@@ -1279,9 +1279,9 @@ If possible, please attach the file that is not opening.
       modalInfo = {
         state: "error",
         error: `<p>Error restoring file. <br><br>
-          Error parsing input file. Make sure your attempting to open an EngineeringPaper.xyz file.
+          Error parsing input file. Make sure your attempting to open an CalcWrld file.
 <br><br>
-If this problem persists after verifying the file is an EngineeringPaper.xyz file,
+If this problem persists after verifying the file is an CalcWrld file,
 email support@engineeringpaper.xyz
 with the file that is not opening attached, if possible. </p>`,
         modalOpen: true,
@@ -1352,7 +1352,7 @@ CalcWrld, use the "Enable Persistent Local Storage" option on the left menu.
         error: `<p>Error restoring autosave checkpoint ${window.location}.
 This is most likely due to a bug in CalcWrld.
 If problem persists after attempting to refresh the page, please report problem to
-<a href="mailto:support@engineeringpaper.xyz?subject=Error Regenerating Sheet&body=Sheet that failed to load: ${encodeURIComponent(window.location.href)}">support@engineeringpaper.xyz</a>.  
+<a href="mailto:support@calcwrld.space?subject=Error Regenerating Sheet&body=Sheet that failed to load: ${encodeURIComponent(window.location.href)}">support@calcwrld.space</a>.  
 Please include a link to this sheet in the email to assist in debugging the problem. </p>`,
         modalOpen: true,
         heading: "Restoring Sheet"
@@ -1444,7 +1444,7 @@ Please include a link to this sheet in the email to assist in debugging the prob
       try {
         sheetHash = getSheetHash(new URL(sheetUrl));
         if (sheetHash === "") {
-          throw new Error(`${sheetUrl} is not a valid EngineeringPaper.xyz sheet URL.`);
+          throw new Error(`${sheetUrl} is not a valid CalcWrld sheet URL.`);
         }
       } catch(error) {
         modalInfo = {

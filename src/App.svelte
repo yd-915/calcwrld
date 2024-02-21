@@ -2294,13 +2294,6 @@ Please include a link to this sheet in the email to assist in debugging the prob
           icon={Help}
           on:click={(e) => handleLinkPushState(e, `/${tutorialHash}`) }
         />
-       <HeaderActionLink
-          href={`https://calcdraw1.vercel.app`}
-          title="Draw"
-          rel="nofollow"
-          icon={`https://i.ibb.co/S3mkYQ4/cd.png`}
-          on:click={(e) => handleLinkPushState(e, `https://calcdraw1.vercel.app`) }
-        />
         <div class="dot-container">
           <HeaderGlobalAction 
             title={"Sheet Settings" + (usingDefaultConfig ? "" : " (Modified)")}

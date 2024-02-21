@@ -73,6 +73,7 @@
   import InformationFilled from "carbon-icons-svelte/lib/InformationFilled.svelte";
   import ErrorFilled from "carbon-icons-svelte/lib/ErrorFilled.svelte";
   import Download from "carbon-icons-svelte/lib/Download.svelte";
+  import PenFountain from "carbon-icons-svelte/lib/PenFountain.svelte";
   import Renew from "carbon-icons-svelte/lib/Renew.svelte";
   import ArrowLeft from "carbon-icons-svelte/lib/ArrowLeft.svelte";
   import ArrowRight from "carbon-icons-svelte/lib/ArrowRight.svelte";
@@ -2262,6 +2263,13 @@ Please include a link to this sheet in the email to assist in debugging the prob
 
     <HeaderUtilities>
       {#if !inIframe}
+       <HeaderActionLink
+          id="calc-draw"
+          title="CalcDraw"
+          href="https://calcdraw1.vercel.app/" 
+          icon={PenFountain}
+          on:click={ (e) => handleLinkPushState(e, '/') }
+        />
         <HeaderActionLink
           id="new-sheet"
           title="New Sheet"

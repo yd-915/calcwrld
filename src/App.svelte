@@ -2226,7 +2226,7 @@ Please include a link to this sheet in the email to assist in debugging the prob
       slot="platform"
       on:click={() => $activeCell = -1}
     >
-      <img class="logo" src="calc.png" alt="CalcWrld">
+      <img class="logo" src="cwr.png" alt="CalcWrld">
     </span>
     
     {#if serviceWorkerUpdateWaiting}

@@ -1895,7 +1895,7 @@ Please include a link to this sheet in the email to assist in debugging the prob
   }
 
   $: {
-    document.title = `EngineeringPaper.xyz: ${$title}`;
+    document.title = `CalcWrld: ${$title}`;
   }
 
   $: if($cells) {
@@ -2464,34 +2464,6 @@ Please include a link to this sheet in the email to assist in debugging the prob
         <SideNavLink 
           on:click={() => showRequestPersistentStorage()}
           text="Enable Persistent Local Storage"
-        />
-        <SideNavLink
-          on:click={() => modalInfo = {
-              modalOpen: true,
-              state: "tryEpxyz",
-              heading: "Now Available at EPxyz.com"
-          }}
-          text=".xyz blocked? Try EPxyz.com"
-        />
-        <SideNavLink
-          href="https://blog.engineeringpaper.xyz"
-          text="Blog"
-          target="_blank"
-        />
-        <SideNavLink
-          href="https://github.com/mgreminger/EngineeringPaper.xyz"
-          text="GitHub Page"
-          target="_blank"
-        />
-        <SideNavLink
-          href="https://www.youtube.com/@epxyz"
-          text="YouTube Channel"
-          target="_blank"
-        />
-        <SideNavLink
-          href="https://www.reddit.com/r/EngineeringPaperXYZ/"
-          text="Reddit Community"
-          target="_blank"
         />
       </SideNavItems>
     </SideNav>

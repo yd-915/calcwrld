@@ -2268,7 +2268,7 @@ Please include a link to this sheet in the email to assist in debugging the prob
           title="CalcDraw"
           href="https://calcdraw1.vercel.app/" 
           icon={PenFountain}
-          on:click={ (e) => handleLinkPushState(e, '/') }
+          on:click={ (e) => handleLinkPushState(e, 'https://calcdraw1.vercel.app/') }
         />
         <HeaderActionLink
           id="new-sheet"

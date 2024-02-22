@@ -1540,7 +1540,7 @@ export class LatexToSympy extends LatexParserVisitor<string | Statement | UnitBl
           si_value = format(numWithUnits.value);
         }
       } catch(e) {
-        this.addParsingErrorMessage(`Error parsing '${bignumber(original_value)} ${unitBlockData.units}'. This is an error that indicates a possible bug, report to support@engineeringpaper.xyz`)
+        this.addParsingErrorMessage(`Error parsing '${bignumber(original_value)} ${unitBlockData.units}'. This is an error that indicates a possible bug, report to support@calcwrld.space`)
       } 
     }
     

@@ -18,7 +18,7 @@
 </script>
 
 <p>
-  EngineeringPaper.xyz uses your browser's local storage to store your most recent {numCheckpoints} autosave
+  CalcWrld uses your browser's local storage to store your most recent {numCheckpoints} autosave
   checkpoints and your list of recently visited sheets. Your web browser will not automatically persist this
   local storage and may clear it at any time. Safari is particularly aggressive about freeing this storage
   and will automatically clear local storage for a site that has not been visited in the previous seven days. 
@@ -28,8 +28,8 @@
 
 <p>
   Click the button below to request that your browser enables persistent local storage for the 
-  EngineeringPaper.xyz domain. Your browser may popup a dialog that asks you to approve this request.
-  Chrome and Edge require you to bookmark EngineeringPaper.xyz in order to enable persistent storage.
+  CalcWrld domain. Your browser may popup a dialog that asks you to approve this request.
+  Chrome and Edge require you to bookmark CalcWrld in order to enable persistent storage.
 </p>
 
 <br>

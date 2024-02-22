@@ -2689,17 +2689,17 @@ Please include a link to this sheet in the email to assist in debugging the prob
         {:else if modalInfo.state === "restoring"}
           <InlineLoading description={`Restoring autosave checkpoint: ${window.location}`}/>
         {:else if modalInfo.state === "bugReport"}
-          <p>If you have discovered a bug in EngineeringPaper.xyz, 
+          <p>If you have discovered a bug in CalcWrld, 
             please send a bug report to 
-            <a href={`mailto:support@engineeringpaper.xyz?subject=Bug Report&body=Sheet with issues: ${encodeURIComponent(window.location.href)}`}>support@engineeringpaper.xyz</a>.
+            <a href={`mailto:support@calcwrld.space?subject=Bug Report&body=Sheet with issues: ${encodeURIComponent(window.location.href)}`}>support@calcwrld.space</a>.
             Please include a description of the problem. Additionally, it's best if you can include a link to the sheet that is experiencing the problem.
           </p>
         {:else if modalInfo.state === "tryEpxyz"}
           <p>
             Some environments indiscriminately block all <em>.xyz</em> domains. For example,
             some school districts block all <em>.xyz</em> domains for their school issued 
-            Chromebooks. Since it's important to us that all of the EngineeringPaper.xyz
-            goodness is available to everyone, the full functionality of EngineeringPaper.xyz 
+            Chromebooks. Since it's important to us that all of the CalcWrld
+            goodness is available to everyone, the full functionality of CalcWrld 
             is now also available as a <em>.com</em> address at
             <a href="EPxyz.com" target="_blank">EPxyz.com</a>. The functionality is the same
             between the two domains and sheets saved on one can be opened on the other. 

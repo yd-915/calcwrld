@@ -41,15 +41,15 @@
     }
   ],
   "id": "/",
-  "start_url": "/",
+  "start_url": "https://www.calcwrld.space",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#e61f00",
+  "background_color": "#857777",
+  "theme_color": "#c11a00",
   "description": "CalcWrld is a free web app for creating shareable engineering calculations that checks/converts units, solves systems of equations, and plots.",
   "shortcuts" : [
     {
       "name": "New Form",
-      "url": "/",
+      "url": "https://www.calcwrld.space/",
       "description": "Open a new window with a blank form",
       "icons": [
         { "src": "images/calc.png", "sizes": "192x192" },

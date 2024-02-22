@@ -347,7 +347,7 @@
       {/if}
     {:else}
       <TooltipIcon direction="right" align="end">
-        <span slot="tooltipText">Internal error, attempt to place plot result in a math cell. Report to support@engineeringpaper.xyz</span>
+        <span slot="tooltipText">Internal error, attempt to place plot result in a math cell. Report to support@calcwrld.space</span>
         <Error class="error"/>
       </TooltipIcon>
     {/if}

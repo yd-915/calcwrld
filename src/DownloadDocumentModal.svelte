@@ -52,11 +52,11 @@
       required={true}
       bind:selected={docType}
     >
-      <RadioButton labelText="Native EngineeringPaper.xyz .epxzy Sheet File (no data leaves your computer)" value="epxyz" />
+      <RadioButton labelText="Native CalcWrld .epxzy Sheet File (no data leaves your computer)" value="epxyz" />
       <RadioButton labelText="Markdown File (no data leaves your computer)" value="md" />
-      <RadioButton labelText="Microsoft Word .docx File (processed on the EngineeringPaper.xyz server, no data is retained on the server)" value="docx" />
+      <RadioButton labelText="Microsoft Word .docx File (processed on the CalcWrld server, no data is retained on the server)" value="docx" />
       <RadioButton labelText="PDF File (processed on the EngineeringPaper.xyz server, no data is retained on the server)" value="pdf" />
-      <RadioButton labelText="LaTeX File (images and plots are not included, processed on the EngineeringPaper.xyz server, no data is retained on the server)" value="tex" />
+      <RadioButton labelText="LaTeX File (images and plots are not included, processed on the CalcWrld server, no data is retained on the server)" value="tex" />
     </RadioButtonGroup>
     <div>
       <div class="bx--label">Shareable Link</div>

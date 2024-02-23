@@ -134,39 +134,39 @@
 
   const prebuiltTables = [
     {
-      url: "/PaFvsBhgoJdZEEwyBLPnD6",
+      url: "https://www.calcwrld.space/PaFvsBhgoJdZEEwyBLPnD6",
       title: "Mechanical Properties of Metals" 
     },
     {
-      url: "/QF5ThTJMUhn2sLBxM4Vyr9",
+      url: "https://www.calcwrld.space/QF5ThTJMUhn2sLBxM4Vyr9",
       title: "Coefficients of Friction" 
     },
     {
-      url: "/FwahHU9W8ht28t9p4LNqFd",
+      url: "https://www.calcwrld.space/FwahHU9W8ht28t9p4LNqFd",
       title: "Coefficients of Thermal Expansion" 
     },
     {
-      url: "/iBxxaDryEV8NkdrNdsZzvF",
+      url: "https://www.calcwrld.space/iBxxaDryEV8NkdrNdsZzvF",
       title: "Electrical Properties of Conductors" 
     },
     {
-      url: "/EyXiBtFajaDHpxqRpvGQFX",
+      url: "https://www.calcwrld.space/EyXiBtFajaDHpxqRpvGQFX",
       title: "Dielectric Properties" 
     },
     {
-      url: "/EnZhHT9wvsESXvRChZ7TLV",
+      url: "https://www.calcwrld.space/EnZhHT9wvsESXvRChZ7TLV",
       title: "Properties of Liquids" 
     },
     {
-      url: "/bPX72mmrNjVsgZbos25Gkw",
+      url: "https://www.calcwrld.space/bPX72mmrNjVsgZbos25Gkw",
       title: "Beam Section Properties" 
     },
     {
-      url: "/XvB4X3qGDZoupFyRCLbWmL",
+      url: "https://www.calcwrld.space/XvB4X3qGDZoupFyRCLbWmL",
       title: "W-Beam Properties" 
     },
     {
-      url: "/ndyjJRwvqoJBfVLw7BGFfu",
+      url: "https://www.calcwrld.space/ndyjJRwvqoJBfVLw7BGFfu",
       title: "Musical Note Frequencies" 
     }
   ];

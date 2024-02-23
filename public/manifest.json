@@ -5,13 +5,13 @@
   "icons": [
     {
       "src": "images/cw.png",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "sizes": "512x512",
       "purpose": "any"
     },
     {
-      "src": "images/icon-maskable.svg",
-      "type": "image/svg+xml",
+      "src": "images/cw.png",
+      "type": "image/png",
       "sizes": "512x512",
       "purpose": "maskable"
     },

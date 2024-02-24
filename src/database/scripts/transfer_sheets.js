@@ -4,7 +4,7 @@ import fetch from "node-fetch";
 const sheetsFile = process.argv[2];
 const targetUrl = process.argv[3];
 const targetApiKey = process.env.MANUAL_SAVE_KEY;
-const sourceUrl = "https://engineeringpaper.herokuapp.com";
+const sourceUrl = "https://www.calcwrld.space/";
 
 const sheets = JSON.parse(fs.readFileSync(sheetsFile));
 

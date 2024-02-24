@@ -73,6 +73,7 @@
   import InformationFilled from "carbon-icons-svelte/lib/InformationFilled.svelte";
   import ErrorFilled from "carbon-icons-svelte/lib/ErrorFilled.svelte";
   import Download from "carbon-icons-svelte/lib/Download.svelte";
+  import CicsSitOverrides from "carbon-icons-svelte/lib/CicsSitOverrides.svelte";
   import PenFountain from "carbon-icons-svelte/lib/PenFountain.svelte";
   import Renew from "carbon-icons-svelte/lib/Renew.svelte";
   import ArrowLeft from "carbon-icons-svelte/lib/ArrowLeft.svelte";
@@ -2268,6 +2269,13 @@ Please include a link to this sheet in the email to assist in debugging the prob
           title="CalcDraw"
           href="https://calcdraw1.vercel.app/" 
           icon={PenFountain}
+          on:click={ (e) => handleLinkPushState(e, 'https://calcdraw1.vercel.app/') }
+        />
+       <HeaderActionLink
+          id="calc-board"
+          title="CalcBoard"
+          href="https://calcban.vercel.app/" 
+          icon={CicsSitOverrides}
           on:click={ (e) => handleLinkPushState(e, 'https://calcdraw1.vercel.app/') }
         />
         <HeaderActionLink

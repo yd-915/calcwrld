@@ -2709,13 +2709,13 @@ Please include a link to this sheet in the email to assist in debugging the prob
             Chromebooks. Since it's important to us that all of the CalcWrld
             goodness is available to everyone, the full functionality of CalcWrld 
             is now also available as a <em>.com</em> address at
-            <a href="EPxyz.com" target="_blank">EPxyz.com</a>. The functionality is the same
+            <a href="calcwrld.space" target="_blank">calcwrld.space</a>. The functionality is the same
             between the two domains and sheets saved on one can be opened on the other. 
             Shareable links are interchangeable as well. For example, 
-            <a href="https://engineeringpaper.xyz/fFjTsnFoSQMLwcvteVoNtL" target="_blank">
-              https://engineeringpaper.xyz/fFjTsnFoSQMLwcvteVoNtL</a> and 
-            <a href="https://epxyz.com/fFjTsnFoSQMLwcvteVoNtL" target="_blank">
-              https://epxyz.com/fFjTsnFoSQMLwcvteVoNtL</a> point to the same sheet.
+            <a href="https://calcwrld.space/fFjTsnFoSQMLwcvteVoNtL" target="_blank">
+              https://calcwrld.space/fFjTsnFoSQMLwcvteVoNtL</a> and 
+            <a href="https://calcwrld.space/fFjTsnFoSQMLwcvteVoNtL" target="_blank">
+              https://calcwrld.space/fFjTsnFoSQMLwcvteVoNtL</a> point to the same sheet.
           </p>
         {:else if modalInfo.state === "supportedUnits"}
           <UnitsDocumentation />

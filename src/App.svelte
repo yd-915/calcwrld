@@ -112,7 +112,7 @@
       title: "Introduction to CalcWrld"
     },
     {
-      path: "/",
+      path: "/fvYtcjsQVGJs8N4j6biWv3",
       title: "Plotting and Functions" 
     },
     {

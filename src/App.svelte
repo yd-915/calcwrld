@@ -108,27 +108,27 @@
 
   const exampleSheets = [
     {
-      path: `/${tutorialHash}`,
+      path: `https://www.calcwrld.space/${tutorialHash}`,
       title: "Introduction to CalcWrld"
     },
     {
-      path: "/fvYtcjsQVGJs8N4j6biWv3",
+      path: "https://www.calcwrld.space/fvYtcjsQVGJs8N4j6biWv3",
       title: "Plotting and Functions" 
     },
     {
-      path: "/32XmqQA442GL8mj8X9uwP3",
+      path: "https://www.calcwrld.space/32XmqQA442GL8mj8X9uwP3",
       title: "Scatter Plots" 
     },
     {
-      path: "/DeP4bqfF2H5VbRJz3Nd9Re",
+      path: "https://www.calcwrld.space/DeP4bqfF2H5VbRJz3Nd9Re",
       title: "Equation Solving" 
     },
     {
-      path: "/8pWM9yEqEPNntRBd6Jr9Sv",
+      path: "https://www.calcwrld.space/8pWM9yEqEPNntRBd6Jr9Sv",
       title: "Matrices and Vectors" 
     },
     {
-      path: "/enYmu2PzN2hN93Avizx9ec",
+      path: "https://www.calcwrld.space/enYmu2PzN2hN93Avizx9ec",
       title: "Python Code Generation" 
     },
   ];
@@ -166,10 +166,6 @@
       url: "https://www.calcwrld.space/XvB4X3qGDZoupFyRCLbWmL",
       title: "W-Beam Properties" 
     },
-    {
-      url: "https://www.calcwrld.space/ndyjJRwvqoJBfVLw7BGFfu",
-      title: "Musical Note Frequencies" 
-    }
   ];
 
   // Provide global function for setting latex for MathField
@@ -2468,14 +2464,6 @@ Please include a link to this sheet in the email to assist in debugging the prob
               heading: "Bug Report"
           }}
           text="Bug Report"
-        />
-        <SideNavLink 
-          on:click={() => modalInfo = {
-            modalOpen: true,
-            state: "newVersion",
-            heading: "New Features"
-          }}
-          text="New Features"
         />
         <SideNavLink 
           on:click={() => showRequestPersistentStorage()}

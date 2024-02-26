@@ -6,7 +6,7 @@ html, body {
 
 body {
 	overflow: hidden;
-	color: #333;
+	color: #450404;
 	margin: 0;
 	padding: 8px;
 	box-sizing: border-box;
@@ -51,7 +51,7 @@ input:disabled {
 }
 
 button {
-	color: #333;
+	color: #450404;
 	background-color: white;
 	outline: none;
 }
